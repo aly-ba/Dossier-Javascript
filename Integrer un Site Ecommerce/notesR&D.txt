@@ -1,0 +1,4 @@
+Notes: R&D
+telecharger boiler plate
+delete the doc file
+tester boilerplate
