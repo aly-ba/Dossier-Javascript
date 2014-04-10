@@ -1,0 +1,76 @@
+@import url(normalize.css);
+@import url(http://fonts.googleapis.com/css?family=Acme|Sintony:400,700);
+
+body {
+	background-color: #dfdfdf;
+	color:#868686;
+	font-family: 'Sintony', Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Acme', Helvetica, Arial, sans-serif;
+}
+
+.main-content {
+	width:1000px;
+	margin: 0 auto;
+}
+.bg-orange {background-color : #f26c4e; }
+.bg-purple {background-color :#cf6baa; }
+.bg-yellow {background-color :#f2c23d; }
+.bg-green {background-color :#a3d178;  }
+.bg-blue {background-color: #78ccd0;}
+.bg-dark-green{background-color: #78ccd0;}
+
+/*--------------------------------HEADER----------------------------------*/
+header {
+	text-align:center;
+	width:100%;
+}
+
+.main-title {
+	font-size: 48px;
+	line-height: 40px;
+}
+
+.main-title span{
+	font-size: :24px;
+	letter-spacing: 4px;
+}
+
+/*--------------------------------Main Navigation ----------------------------------*/
+.main-nav {
+	background-color: #cdcdcd;
+	width: :100%;
+}
+
+.main-nav  ul {
+	list-style: none;
+	padding-left: 0px;
+	width: 1000px;
+	height:70px;
+	margin: 0 auto;
+	text-align: left; 
+	position: relative;
+	left: -4px;
+}
+
+.main-nav li {
+	 border-left:4px solid #dfdfdf;
+	 float: left;
+	 height: 70px;
+	 width: 140px;
+	/** border-radius: 40px 10px;
+	box-shadow: 1px 1px 12px #555; **/
+	 
+}
+
+.main-nav li:last-child {
+	border-right: 4px solid #dfdfdf;
+}
+
+.feature-slider {
+	background-color: #fff;
+}
+//dernierchap 12
