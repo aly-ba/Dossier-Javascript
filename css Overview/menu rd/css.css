@@ -1,0 +1,26 @@
+
+
+#nav {
+    background:#e3e3e3;
+    overflow:hidden;
+}
+
+#nav li {
+    display:inline;
+    list-style:none;
+}
+#nav li a {
+    color:#292929;
+    text-decoration:none;
+    margin-right:25px;
+    padding-right:255px;
+    border-right:1px solid black;
+}
+
+#nav li a:hover {
+    color:green;
+}
+
+#nav li:last-child a {
+    border-right:none;
+}
